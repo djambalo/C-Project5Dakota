@@ -27,7 +27,8 @@ public class SeedData
                     CourseName = "CIS 121",
                     CourseDescription = "Logic",
                     RoomNumber = 116,
-                    StartTime = new TimeOnly(8, 0, 0)
+                    StartTime = new TimeOnly(8, 0, 0),
+                    EndTime = new TimeOnly(10, 0, 0)
                 },
                 new Course()
                 {
@@ -35,7 +36,8 @@ public class SeedData
                     CourseName = "CIS 412",
                     CourseDescription = "Cobol II",
                     RoomNumber = 120,
-                    StartTime = new TimeOnly(9, 0, 0)
+                    StartTime = new TimeOnly(9, 0, 0),
+                    EndTime = new TimeOnly(10, 0, 0)
                 },
                 new Course()
                 {
@@ -43,7 +45,8 @@ public class SeedData
                     CourseName = "CIS 175",
                     CourseDescription = "Java II",
                     RoomNumber = 200,
-                    StartTime = new TimeOnly(13, 0, 0)
+                    StartTime = new TimeOnly(13, 0, 0),
+                    EndTime = new TimeOnly(14, 30, 0)
                 },
                 new Course()
                 {
@@ -51,7 +54,8 @@ public class SeedData
                     CourseName = "CIS 198",
                     CourseDescription = "JavaScript",
                     RoomNumber = 116,
-                    StartTime = new TimeOnly(11, 0, 0)
+                    StartTime = new TimeOnly(11, 0, 0),
+                    EndTime = new TimeOnly(11, 30, 0)
                 },
                 new Course()
                 {
@@ -59,7 +63,8 @@ public class SeedData
                     CourseName = "CIS 618",
                     CourseDescription = ".Net",
                     RoomNumber = 112,
-                    StartTime = new TimeOnly(8, 30, 0)
+                    StartTime = new TimeOnly(8, 30, 0),
+                    EndTime = new TimeOnly(10, 0, 0)
                 }
             );
             context.SaveChanges();

@@ -15,7 +15,7 @@ namespace CourseCatalog.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "7.0.12");
+            modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
 
             modelBuilder.Entity("CourseCatalog.Models.Course", b =>
                 {
@@ -27,6 +27,9 @@ namespace CourseCatalog.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CourseName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<TimeOnly>("EndTime")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("RoomNumber")
